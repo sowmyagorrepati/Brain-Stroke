@@ -17,7 +17,7 @@ from utils import preprocess_image
 MODEL_DIR = "model"
 MODEL_PATH = os.path.join(MODEL_DIR, "stroke_model_tf.keras")
 LABELS_PATH = os.path.join(MODEL_DIR, "labels.npy")
-MODEL_URL = "https://drive.google.com/uc?id=1wMKmUJ5negmjHJLUGLzjmSjo-qgZCJzE"
+MODEL_URL = "https://drive.google.com/uc?id=1QQ_8iN80chVY7JFLwbFWwfhdsvKweYs0"
 
 os.makedirs(MODEL_DIR, exist_ok=True)
 
