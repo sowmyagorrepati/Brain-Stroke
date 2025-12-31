@@ -3,8 +3,7 @@ import numpy as np
 import cv2
 
 def generate_gradcam(model, img_array, class_index):
-    # Last conv layer of EfficientNetB3
-    conv_layer = model.get_layer("top_conv")
+    conv_layer = model.get_layer("block7b_project_conv")
 
     grad_model = tf.keras.models.Model(
         inputs=model.inputs,

@@ -1,5 +1,5 @@
 import numpy as np
-from keras.applications.efficientnet import preprocess_input
+from tensorflow.keras.applications.efficientnet import preprocess_input
 
 IMG_SIZE = 300
 
